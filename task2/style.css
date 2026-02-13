@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Screenshot 2024-03-26 192723.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#main-login-container {
+    width: 100%;
+    max-width: 450px;
+    padding: 25px;
+}
+
+#auth-box {
+    background: linear-gradient(145deg, rgba(232, 195, 145, 0.75) 0%, rgba(245, 220, 180, 0.75) 100%);
+    backdrop-filter: blur(20px);
+    padding: 50px 40px;
+    border-radius: 20px;
+    border: 2px solid rgba(218, 165, 100, 0.6);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.7);
+}
+
+#header-section {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#header-section h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #2d2d2d;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#header-section p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #2d2d2d;
+}
+
+
+#user-login-form {
+    margin-bottom: 20px;
+}
+
+#email-input-group,
+#password-input-group {
+    margin-bottom: 22px;
+}
+
+#email-input-group label,
+#password-input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #3a3a3a;
+    margin-bottom: 8px;
+}
+
+#email-input-group input,
+#password-input-group input {
+    width: 100%;
+    padding: 13px 16px;
+    border: 2px solid rgba(200, 150, 100, 0.3);
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#email-input-group input:focus,
+#password-input-group input:focus {
+    border-color: #e07856;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(224, 120, 86, 0.2);
+}
+
+#form-settings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+    font-size: 13px;
+}
+
+#remember-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #4a4a4a;
+}
+
+#remember-checkbox-label input {
+    width: 17px;
+    height: 17px;
+    margin-right: 7px;
+    cursor: pointer;
+    accent-color: #e07856;
+}
+
+#remember-checkbox-label span {
+    color: #4a4a4a;
+    font-weight: 500;
+}
+
+#forgot-password-link {
+    color: #e07856;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+#forgot-password-link:hover {
+    color: #c85d3c;
+    text-decoration: underline;
+}
+
+#submit-login-btn {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #e07856 0%, #d66846 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(224, 120, 86, 0.3);
+}
+
+#submit-login-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(224, 120, 86, 0.5);
+    background: linear-gradient(135deg, #d66846 0%, #c85d3c 100%);
+}
+
+#submit-login-btn:active {
+    transform: translateY(0);
+}
+
+#signup-section {
+    text-align: center;
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+#signup-redirect-link {
+    color: #e07856;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+#signup-redirect-link:hover {
+    color: #c85d3c;
+    text-decoration: underline;
+}
