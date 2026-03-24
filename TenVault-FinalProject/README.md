@@ -4,10 +4,6 @@
 
 A fully-featured e-commerce website for Ben 10 merchandise, featuring a modern design, shopping cart functionality, and comprehensive product catalog. Built with HTML, CSS, and JavaScript with jQuery and Bootstrap integration.
 
-## 🌐 Live Demo
-
-**Visit TEN VAULT**: [https://lieujoy.github.io/InternPE/02TenVault/](https://lieujoy.github.io/InternPE/02TenVault/)
-
 ## ✨ Features
 
 ### 🛍️ E-Commerce Features
@@ -377,5 +373,3 @@ Potential improvements:
 **Built with 💚 during InternPE Internship**
 
 *It's Hero Time! Transform your style with TEN VAULT* 🎮
-
-**Shop Now**: [https://lieujoy.github.io/InternPE/02TenVault/](https://lieujoy.github.io/InternPE/02TenVault/)
